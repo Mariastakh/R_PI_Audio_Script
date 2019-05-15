@@ -233,6 +233,7 @@ int tapTime(int tapIndex)
 
 }
 
+//Interpolation code from : Richard Boulanger and Victor Lazzarini, The Audio Programming Book, Chapter 6, pp. 495-496
 double interpolate(double ind)
 {
 	double interpTap = int(ind);
