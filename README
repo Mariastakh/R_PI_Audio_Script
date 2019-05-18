@@ -1,1 +1,10 @@
-A C++ digital delay script written for the Raspberry Pi. 
+A C++ digital delay script written for the Raspberry Pi 3 Model B. The Pi is mounted on a perfboard with the MCP3008 ADC
+<br>
+and eight potentiometers. 
+
+Dependencies:
+WiringPi - https://github.com/WiringPi/WiringPi
+Maximilian - https://github.com/micknoise/Maximilian
+
+
+Instructions:
