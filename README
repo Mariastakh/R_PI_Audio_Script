@@ -7,3 +7,8 @@ Maximilian - https://github.com/micknoise/Maximilian
 
 
 Instructions:
+1. Connect the Pi Hardware Effect
+2. Setup WiringPi on the Pi
+3. Clone this repo
+4. To compile: g++ -Wall -D__LINUX_ALSA__ -o delay main.cpp RtAudio.cpp player.cpp maximilian.cpp -lasound -lpthread -lwiringPi
+5. run ./delay
